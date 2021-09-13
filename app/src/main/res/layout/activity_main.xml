@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="302dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/cartman" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/cartman" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            app:srcCompat="@drawable/cartman" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/cartman" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:srcCompat="@drawable/cartman" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            app:srcCompat="@drawable/cartman" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    ---------------------------------------------
+
+
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="match_parent"
+android:layout_height="250dp"
+app:srcCompat="@drawable/cartman"
+tools:layout_editor_absoluteX="81dp"
+tools:layout_editor_absoluteY="176dp" />
+
+<TextView
+android:id="@+id/textView2"
+android:layout_margin="5dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+
+
+
+    ---------------------------------------------
+
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Test Button"
+    android:textColor="#99ff99"
+    android:textSize="20sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="53dp"></Button>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="TextView Text View"
+    android:textSize="25sp"
+    tools:layout_editor_absoluteX="97dp"
+    tools:layout_editor_absoluteY="210dp"></TextView>
+
+</LinearLayout>
+
+
+    ---------------------------------------------
+
+
+
+<ImageView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:src="@drawable/cartman"
+    >
+
+</ImageView>
+
+
+
+    </FrameLayout>
+
+
+
+---------------------------------------------
+
+
+<Button
+android:id="@+id/button4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Button" />
+
+<Button
+android:id="@+id/button5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/button4"
+android:text="Button" />
+    </RelativeLayout>
